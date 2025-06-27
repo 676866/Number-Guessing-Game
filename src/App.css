@@ -1,0 +1,65 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(214, 234, 235);
+  color: black;
+  text-align: center;
+  padding: 40px;
+}
+.title{
+  color: rgb(94, 15, 191);
+
+  
+}
+.game-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.new-game {
+  position: absolute;
+  right: 40px;
+  top: 20px;
+  padding: 8px 10px;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+
+}.new-game:hover {
+  background: #333;
+}
+
+
+.guess-input input {
+  font-size: 24px;
+  width: 80px;
+  text-align: center;
+  padding: 10px;
+  margin: 20px auto;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+.guess-btn {
+  background-color: rgb(80, 74, 74);
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+.guess-btn:hover {
+  background: #242222;
+}
+.lost-message {
+  color: #d40000;
+  font-weight: bold;
+  font-size: 18px;
+  animation: flashLoss 0.5s ease-in-out 2;
+}
+
